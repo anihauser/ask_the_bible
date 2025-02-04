@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ask the Bible!</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+    <script src="{{ url_for('static', filename='styles/script.js') }}"></script>
+</head>
+<body>
+    <div id="flex-box">
+        <div id="welcome-screen">
+            <h1>The Bible-Bot</h1>
+            <div id="welcome-description">
+                <p>&#8594 Ask a question that will be answered via a Bible verse.</p>
+            </div>
+        </div>
+        <div id="chatbot-container">
+            <div id="chat-display"></div>
+            <div id="input-container">
+                <input type="text" id="user-input" placeholder="Type your question here...">
+                <button id="send-button">Send</button>
+            </div>
+        </div>
+    </div>
+ </body>
+</html>
